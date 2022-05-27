@@ -27,9 +27,19 @@ h1 {
           white-space: nowrap;
 }
 
+.desc {
+          display: flex;
+          justify-content: center;
+          background: grey;
+          color: white;
+          font-size: 15px;
+          margin-bottom: 10px;
+}
+
 section {
           padding: 0 60px;
-          width: 100%;
+          /* width: 100%; */
+          margin-bottom: 20px;
 }
 
 p {
@@ -37,4 +47,24 @@ p {
           display: flex;
           flex-wrap: wrap;
           text-align: left;
+}
+
+h4 {
+          margin-top: -20px;
+}
+
+figure {
+          text-align: center;
+}
+
+
+@media (min-width: 670px) {
+           .img {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    object-fit: cover;
+                    height: 600px;
+
+
+          } 
 }
