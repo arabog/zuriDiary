@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.container {
+          width: 1280px;
+          max-width: 100%;
+          margin: 0 auto;
+}
+
+.img {
+          background-image: url(https://media.gettyimages.com/photos/musician-fela-kuti-performs-at-orchestra-hall-in-detroit-michigan-on-picture-id462490208?s=2048x2048);
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 300px;
+          margin-bottom: 10px;
+}
+
+h1 {
+          text-align: center;
+          font-size: 27px;
+          padding: 10px 0;
+          white-space: nowrap;
+}
+
+section {
+          padding: 0 60px;
+          width: 100%;
+}
+
+p {
+          margin: 20px 0;
+          display: flex;
+          flex-wrap: wrap;
+          text-align: left;
+}
