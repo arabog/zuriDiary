@@ -4,52 +4,57 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+          <link rel="stylesheet" href="./styles.css">
+          
           <title>Contact Page</title>
 </head>
 <body>
-          <div class="container">
-                    <header>
-                              <nav>
-                                        <ul>
-                                                  <li><a href="./about.html">Home</a></li>
-                                                  <li><a href="./registration.html">Register</a></li>
-                                                  <li><a href="./login.html">Login</a></li>
-                                                  <li><a href="./contact.html">Contact</a></li>
-                                        </ul>
-                              </nav>
-                    </header>
-
+          <header>
+                    <nav>
+                              <ul>
+                                        <li><a href="./about.html">Home</a></li>
+                                        <li><a href="./registration.html">Register</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                        <li><a href="./contact.html">Contact</a></li>
+                              </ul>
+                    </nav>
+          </header>
+          
+          <div class="container reg">
                     <main>
-                              <form class="contact">
-                                        <div class="name">
-                                                  <label for="name"></label>
-                                                  <input type="text" value="name" required>
-                                        </div>
-
-                                        <div class="email">
-                                                  <label for="email"></label>
-                                                  <input type="text" value="email" required>
-                                        </div>
-
-                                        <div class="message">
-                                                  <label for="message"></label>
-                                                  <textarea type="text" value="message" required></textarea>
-                                        </div>
-
-                                        <input type="Submit">
-                              </form>
+                              <div class="wrapper">
+                                        <form class="contact-form">
+                                                  <div class="name">
+                                                            <!-- <label for="name"></label> -->
+                                                            <input type="text" placeholder="Name" required>
+                                                  </div>
+          
+                                                  <div class="email">
+                                                            <!-- <label for="email"></label> -->
+                                                            <input type="text" placeholder="Email" required>
+                                                  </div>
+          
+                                                  <div class="message">
+                                                            <!-- <label for="message">Message</label> -->
+                                                            <textarea  type="text" placeholder="Message" required></textarea>
+                                                  </div>
+          
+                                                  <input type="Submit" class="submit reg">
+                                        </form>
+                              </div>
                     </main>
-
-                    <footer>
-                              <nav>
-                                        <ul>
-                                                  <li><a href="./about.html">Home</a></li>
-                                                  <li><a href="./registration.html">Register</a></li>
-                                                  <li><a href="./login.html">Login</a></li>
-                                                  <li><a href="./contact.html">Contact</a></li>
-                                        </ul>
-                              </nav>
-                    </footer>
           </div>
+
+          <footer>
+                    <nav>
+                              <ul>
+                                        <li><a href="./about.html">Home</a></li>
+                                        <li><a href="./registration.html">Register</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                        <li><a href="./contact.html">Contact</a></li>
+                              </ul>
+                    </nav>
+          </footer>
 </body>
 </html>

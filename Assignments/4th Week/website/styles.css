@@ -8,7 +8,13 @@
 
 header {
           width: 100%;
+}
 
+nav {
+          background: grey;
+          /* width: 100%; */
+
+          padding: 10px;
 }
 
 .container {
@@ -20,12 +26,6 @@ header {
           padding: 0 30px;
 }
 
-nav {
-          background: grey;
-          width: 100%;
-
-          padding: 10px;
-}
 
 ul {
           display: flex;
@@ -112,6 +112,8 @@ img {
           margin: 30px 0;
           
           cursor: pointer;
+
+          border-radius: 5px;
 }
 
 .contact > a {
@@ -124,6 +126,7 @@ img {
 }
 
 footer {
+          width: 100%;
           margin-top: 20px;
 }
 
@@ -131,6 +134,94 @@ footer > nav {
           padding: 50px 0;
 
 }
+
+
+/* Reg */
+form {
+          text-align: center;
+
+          padding: 20px 0;
+
+          /* width: 60%; */
+
+          /* margin: 0 auto; */
+}
+
+input {
+          padding: 10px;
+          margin: 10px 0;
+
+          background: rgb(216, 211, 211);
+          border: none;
+
+          outline: none;
+
+          border-radius: 2px;
+}
+
+input::placeholder {
+          color: black;
+}
+
+.submit {
+          padding: 10px 15px;
+          width: 80%;
+          color: white;
+
+          font-size: 14px;
+
+          margin-top: 20px;
+
+          background: purple;
+          border-radius: 5px;
+
+          cursor: pointer;
+
+          width: 60%;
+
+          /* margin: ; */
+}
+
+
+
+/* Contact */
+.wrapper {
+          width: 100%;
+
+          padding:7vh 0;
+}
+
+.contact-form {
+          width: 80%;
+          margin: 0 auto;
+}
+
+.message {
+          /* margin:  0; */
+          width: 85%;
+
+          margin: 20px auto;
+          
+          
+}
+
+textarea {
+          padding: 10px;
+}
+
+.submit.reg {
+          margin-top: 10px;
+          padding: 10px 15px;
+          margin-bottom: 0;
+}
+
+/* .container.reg {
+          height: 0%;
+} */
+
+/* Login */
+
+
 
 @media (min-width: 610px) {
           .img {
@@ -172,4 +263,36 @@ footer > nav {
                     margin-bottom: 20px;
           }
           
+
+          /* Reg */
+          input {
+                    width: 40%;
+                    max-width: 45%;
+          }
+
+          .submit {
+                    width: 40%;
+                    max-width: 42%;
+                    margin: 50px auto;
+                    color: #fff;
+
+                    padding: 20px;
+          }
+
+          /* contact */
+                    
+                    
+
+          textarea {
+                    max-width: 100%;
+                    height: 100px;
+                    /* max-width: 40%; */
+          }
+
+
+          .submit.reg {
+                    /* margin-top: 10px; */
+                    padding: 15px;
+                    /* margin-bottom: 0; */
+          }
 } 
