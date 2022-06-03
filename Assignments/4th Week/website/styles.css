@@ -188,7 +188,7 @@ input::placeholder {
 .wrapper {
           width: 100%;
 
-          padding:7vh 0;
+          /* padding:7vh 0; */
 }
 
 .contact-form {
@@ -213,6 +213,8 @@ textarea {
           margin-top: 10px;
           padding: 10px 15px;
           margin-bottom: 0;
+
+          cursor: pointer;
 }
 
 /* .container.reg {
