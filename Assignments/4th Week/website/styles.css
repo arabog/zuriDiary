@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+header {
+          width: 100%;
+
+}
+
+.container {
+          width: 1280px;
+          max-width: 100%;
+
+          margin: 0 auto;
+
+          padding: 0 30px;
+}
+
+nav {
+          /* margin: 10px 0; */
+          background: grey;
+          width: 100%;
+
+          padding: 10px;
+
+}
+
+ul {
+          display: flex;
+          justify-content: space-around;
+}
+
+li {
+          list-style: none;
+}
+
+li > a {
+          display: block;
+          color: #fff;
+
+          padding: 10px 15px;
+          text-decoration: none;
+
+          /* border: 1px solid green; */
+}
+
+.img {
+          
+          text-align: center;
+          margin: 20px 0;
+}
+
+img {
+          border-radius: 50%;
+          width: 50%;
+          height: 50%;
+
+}
+
+.name {
+          text-align: center;
+          margin-top: 10px;
+}
+
+.about-me {
+          margin: 10px 0;
+}
+
+.me, .hobb, .prio {
+          margin: 10px 0 15px 0;
+}
+
+.hobbies{
+          margin: 10px 0 20px 0;
+}
+
+.hobbies > ul, .skills > ul  {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+
+}
+
+.dev {
+          grid-column: 1/3;
+          grid-row: 5/6;
+}
+
+.hobbies > ul >li, .skills > ul > li {
+          padding: 5px 0;
+
+}
+
+.priorities > p  {
+          margin: 0;
+}
+
+.skills > h3 {
+          margin: 20px 0;
+}
+
+.skills > ul  {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(5, 1fr);
+}
+
+.contact {
+          background: purple;
+          padding: 5px 10px;
+
+          width: 100%;
+
+          text-align: center;
+          color: #fff;
+
+          margin: 30px 0;
+
+          cursor: pointer;
+}
+
+.contact:hover {
+          background: rgb(180, 36, 180);;
+}
+
+footer {
+          margin-top: 20px;
+}
+
+footer > nav {
+          padding: 50px 0;
+
+}
+
+@media (min-width: 610px) {
+          .mee, .hob, .pri, .ski {
+                    text-align: center;
+                    margin: 25px 0;
+          }
+}
